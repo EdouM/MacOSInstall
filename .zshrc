@@ -56,7 +56,6 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # You may need to manually set your language environment
