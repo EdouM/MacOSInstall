@@ -48,11 +48,6 @@ CASKS=(
     wireshark
 )
 
-for tap in ${TAPS[@]}
-do
-    brew tap $tap
-done
-
 brew install ${FORMULAS[@]}
 
 #brew update
