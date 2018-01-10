@@ -11,3 +11,5 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh #install oh my zsh
