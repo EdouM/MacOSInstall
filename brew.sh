@@ -46,6 +46,7 @@ CASKS=(
     dropbox
     docker
     evernote
+    expressvpn
     flux
     google-chrome
     iterm2
