@@ -15,14 +15,7 @@ fi
 
 cd "$(dirname "$0")"
 
-# homebrew packages
-
-TAPS=(
-    caskroom/cask
-)
-
 FORMULAS=(
-    caskroom/cask/brew-cask
     coreutils
     ffmpeg
     git
