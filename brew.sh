@@ -29,6 +29,7 @@ FORMULAS=(
 CASKS=(
     1password
     adobe-photoshop-lightroom
+    airmail
     alfred
     atom
     bettertouchtool
