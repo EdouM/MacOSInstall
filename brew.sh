@@ -18,12 +18,7 @@ cd "$(dirname "$0")"
 # homebrew packages
 
 TAPS=(
-    homebrew/binary
-    homebrew/dupes
-    homebrew/versions
-    homebrew/science
     caskroom/cask
-    caskroom/versions
 )
 
 FORMULAS=(
