@@ -13,7 +13,7 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-cd "$(dirname "$0")"
+sudo chown -R $(whoami):admin /usr/local
 
 FORMULAS=(
     coreutils
