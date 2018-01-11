@@ -47,7 +47,6 @@ CASKS=(
     the-unarchiver
     vlc
     xquartz
-    wireshark
 )
 
 brew install ${FORMULAS[@]}
