@@ -49,14 +49,12 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions git-open)
+plugins=(git zsh-autosuggestions git-open zsh-syntax-highlighting)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh
 
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -89,4 +87,3 @@ alias python="python3"
 youtubedl(){
   youtube-dl --extract-audio --write-thumbnail --audio-quality 0 --audio-format mp3 "$1"
 }
-source /Users/EdouM/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
