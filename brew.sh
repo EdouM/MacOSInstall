@@ -13,8 +13,6 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-sudo chown -R $(whoami):admin /usr/local
-
 FORMULAS=(
     coreutils
     ffmpeg
