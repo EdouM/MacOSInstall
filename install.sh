@@ -1,4 +1,5 @@
 # Autohide dock
+defaults write com.apple.Dock autohide -bool TRUE
 defaults write com.apple.Dock autohide-delay -float 0
 # Hidden apps translucent
 defaults write com.apple.Dock showhidden -bool YES
