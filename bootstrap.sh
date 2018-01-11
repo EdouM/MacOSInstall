@@ -1,3 +1,3 @@
-source brew.sh
-source oh-my-zsh.sh
-source install.sh
+bash brew.sh
+bash oh-my-zsh.sh
+bash install.sh
