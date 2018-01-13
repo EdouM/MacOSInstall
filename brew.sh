@@ -55,3 +55,5 @@ brew cask install --appdir="/Applications" ${CASKS[@]}
 brew cleanup
 
 brew cask cleanup
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
